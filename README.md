@@ -56,13 +56,13 @@ Throughout the years, the foreign gross is often higher than the domestic gross 
 - Other than theatrical earnings, there are other sources of revenue for studios such as home entertainment sales and rentals, television rights, product placement fees and streaming services. It would be important to collect data about these sources of revenue and compare them to the revenue from the theatre earnings.
 
 ##  For More Information
-See the full analysis in the [Jupyter Notebook](http://localhost:8888/notebooks/Desktop/Data_Science/phase1_jupyter%20notebooks/Analysis-for-a-Microsoft-New-Movie-Studio/student.ipynb) or review this [presentation](http://localhost:8888/files/Desktop/Data_Science/phase1_jupyter%20notebooks/Analysis-for-a-Microsoft-New-Movie-Studio/presentation.pdf).
+See the full analysis in the [Jupyter Notebook]([Studio/student.ipynb](https://github.com/Scholarchep/Analysis-for-a-Microsoft-New-Movie-Studio/blob/master/student.ipynb)) or review this [presentation](https://github.com/Scholarchep/Analysis-for-a-Microsoft-New-Movie-Studio/blob/master/presentation.pdf).
 For additional information, contact Scholar Chepkirui at scholarchepkirui@gmail.com
 
 
 ## Repository Structure
-├── data<br>
-├── images <br>
-├── README.md <br>
-├── presentation.pdf <br>
-└── student.ipynb <br>
+├── images                                         <- Both sourced externally and generated from code
+├── zippedData                                     <- Both sourced externally and generated from code
+├── README.md                                      <- The top-level README for reviewers of this project
+├── presentation.pdf                               <- PDF version of project presentation
+└── student.ipynb                                  <- Narrative documentation of analysis in Jupyter notebook
