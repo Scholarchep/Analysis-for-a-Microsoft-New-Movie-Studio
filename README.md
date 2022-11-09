@@ -1,65 +1,53 @@
-# Phase 1 Project
+# MICROSOFT MOVIE ANALYSIS
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+Author: Scholar Chepkirui
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+## Overview 
+This project uses exploratory data analysis to generate insights for Microsoft Corporation, which wants to create a new movie studio. Based on the datasets from IMDB and Box Office Mojo, recommendations are made on the types of films that Microsoft needs to explore. The metrics used to determine the success and popularity of a genre are the total gross incomes and the average rating of the genre. Generally, the findings show that Microsoft should focus on Sci-Fi, adventure, animation and action genres due to the higher total gross income generated.
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
-
-## Project Overview
-
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
-
-### Business Problem
+## Business Problem
 
 Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+The questions answered by this analysis include:
+- What are the number of movies per genre?
+- Which genre of movies have the highest gross income?
+- Which genre of movies have a higher average rating?
+- What is the relationship between the average rating and the gross income?
+- What is the domestic gross and foreign gross income by start year of the movies?
 
-### The Data
+## Data
+The datasets used in this analysis are from IMDB and Box Office Mojo. The three datasets are briefly explained below:
+- imdb.title.basics: Contains information about movie titles such as primary title, original title, start year, runtime minutes  and genres.
+- imdb.title.ratings: Contains the IMDb rating and votes information for titles.
+- bom.movie_gross: Contains the domestic gross and foreign gross for the movie titles.
 
-In the folder `zippedData` are movie datasets from:
+## Methods
+This project uses exploratory descriptive analysis. The steps taken to achieve useful insights include importing the required libraries and loading the datasets, data understanding, data cleaning and data visualization.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+## Results
+Drama, comedy and action are the genres that have the highest number of movies released in this dataset. Drama and comedy are probably the largest film genres because they include a broad spectrum of films.<br>
+The genres with the least number of movies are war, western, musical and news. These genres are more specific based on the plot of the movie.
+![My image](images/number_of_movies.png)
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+## Conclusions and recommendations
+- The genres of most of the movies that have been released are drama, comedy and action.
+- From the dataset available, the popularity and success of a given genre can be determined based on the average rating of the genre or the total gross income of the genre.
+- Documentary, biography and sport have the highest average rating while Sci-Fi, adventure, animation and action have the highest total gross income.Despite documentary and biography having the highest average rating, they have a very low income.There is no clear relationship between the total gross income and the average rating.
+- Microsoft should consider focusing on genres with the highest total gross income in order to get higher returns on their investment. These genres are Sci-Fi, adventure, animation and action. They seem to appeal to a broad audience hence have a high theatrical box office earnings.
+- Microsoft should focus on exploring more the international markets which have had a higher gross over the years when compared to the domestic markets. The movies created should consider the interests of the international market.
+- Due to the drastic drop in the gross from theatrical earnings for movies released in 2019, Microsoft should look into other sources of revenue and invest in them.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+## Future work
+- Further research should be done to determine the best time of the year to release a movie of a certain genre.
+- It is beneficial to determine whether the total gross income of a genre increases proportionally if the production, development, marketing, and advertising budgets of the movie are increased. This can help in predicting the profits based on the budget.
+- Other than theatrical earnings, there are other sources of revenue for studios such as home entertainment sales and rentals, television rights, product placement fees and streaming services. It would be important to collect data about these sources of revenue and compare them to the revenue from the theatre earnings.
 
-## Deliverables
+##  For More Information
 
-There are three deliverables for this project:
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
-
-### Key Points
-
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
-
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
-
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
-
-## Getting Started
-
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+## Repository Structure
+├── data
+├── images
+├── README.md
+├── Animal_Shelter_Needs_Presentation.pdf
+└── animal_shelter_needs_analysis.ipynb
