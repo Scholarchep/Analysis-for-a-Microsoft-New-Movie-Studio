@@ -29,6 +29,25 @@ Drama, comedy and action are the genres that have the highest number of movies r
 The genres with the least number of movies are war, western, musical and news. These genres are more specific based on the plot of the movie.
 ![My image](images/number_of_movies.png)
 
+The difference between the heights of the bars, which represent the average rating, is quite small.<br>
+Documentary, biography and sport have the highest average rating while family, thriller and horror have the lowest average rating.
+![My image](images/rating_by_genre.png)
+
+Box office Mojo tracks theatrical box office earnings. Additional sources of revenue, such as home entertainment sales and rentals, television rights, product placement fees are not included.<br>
+The genres with the highest income are Sci-Fi, adventure, animation and action while the genres with the lowest income are romance, documentary and war.
+![My image](images/income_by_genre.png)
+
+
+There is no clear relationship between the total gross income and the average rating. However, movies with a low average rating of below 4 have a low total gross income.
+![My image](images/gross_vs_rating.png)
+
+
+Throughout the years, the foreign gross is often higher than the domestic gross income when a movie is released. <br>
+Movies that were released in 2018 had the highest foreign gross and domestic gross income.The gross incomes then drastically dropped to their lowest for movies that were released in 2019. This is probably because most people preferred to utilize streaming services rather than go to the theatres.
+![My image](images/start_year.png)
+
+
+
 ## Conclusions and recommendations
 - The genres of most of the movies that have been released are drama, comedy and action.
 - From the dataset available, the popularity and success of a given genre can be determined based on the average rating of the genre or the total gross income of the genre.
@@ -43,7 +62,7 @@ The genres with the least number of movies are war, western, musical and news. T
 - Other than theatrical earnings, there are other sources of revenue for studios such as home entertainment sales and rentals, television rights, product placement fees and streaming services. It would be important to collect data about these sources of revenue and compare them to the revenue from the theatre earnings.
 
 ##  For More Information
-
+See the full analysis in the
 
 ## Repository Structure
 ├── data
